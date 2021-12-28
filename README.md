@@ -12,4 +12,5 @@ STD (s)	0.011 / 0.021 / 0.378 / 0.348
 
 
 $ docker build -t flask_serving .
+
 $ docker run -it --rm -p 8080:80 flask_serving
